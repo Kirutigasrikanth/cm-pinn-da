@@ -17,5 +17,5 @@ dependencies:
   - pytorch-lightning
   - hydra-core
   - mlflow
-  - geomloss        # for MMD
-  - dvc             # for data versioning
+  - geomloss       
+  - dvc             
