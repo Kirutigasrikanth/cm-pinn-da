@@ -1,0 +1,21 @@
+name: cm-pinn-da
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python>=3.10
+  - pytorch
+  - torchvision
+  - cudatoolkit
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - umap-learn
+  - pytorch-lightning
+  - hydra-core
+  - mlflow
+  - geomloss        # for MMD
+  - dvc             # for data versioning
